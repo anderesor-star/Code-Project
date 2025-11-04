@@ -1,0 +1,97 @@
+.content-wrapper {
+    background:linear-gradient(to right, #363a42, #0b0c0d);
+    background-size: cover;
+    color: white;
+    padding: 100px 0px 20px 50px;
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 200;
+    font-size: 1.35em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+/* column1 */
+.content-wrapper > .column1 {
+    width: 750px;
+}
+.content-wrapper > .column1 > .header > .text1 {
+    width: 750px;
+    font-size: 1.9em;
+    color: #fbfbfb;
+}
+.content-wrapper > .column1 > .header > .text1 > .hand img {
+    width: 40px;
+}
+.content-wrapper > .column1 > .texts1 > .text4 {
+    font-size: 1.65em;
+    color: #aaafb1;
+}
+.content-wrapper > .column1 > .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 685px;
+}
+.content-wrapper > .column1 > .buttons > .sign-up-button button {
+    font-size: 2em;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    background-color: #4bce79;
+    color: black;
+    border:#4bce79;
+}
+.content-wrapper > .column1 > .buttons > .learn-more-button button {
+    font-size: 2em;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: black
+}
+/* column2 */
+.content-wrapper > .column2 {
+    width: 700px;
+    align-items: right;
+}
+.content-wrapper > .column2 > .texts2 {
+    display: flex;
+    text-align: left;
+    width: 500px;
+}
+.content-wrapper > .column2 > .texts2 > .text5 {
+    width: auto;
+    font-weight: 700;
+}
+.content-wrapper > .column2 > .img-code {
+    margin: 0px;
+    width: 700px;
+}
+.content-wrapper > .column2 > .img-code img {
+    width: 700px;
+    margin: 0px;
+    text-justify: right ;
+}
+/* footer */
+.footer {
+    background-color: #191a1d;
+    display: flex;
+    justify-content: space-between;
+    height: 232px;
+}
+.footer > .buttons1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #57585a;
+    height: 75px;
+}
+.footer > .buttons1 > .button-teams button, .footer > .buttons1 > .button-education button, .footer > .buttons1 > .button-privacy button, .footer > .buttons1 > .button-writing button{
+    color: white;
+    background-color: #36383f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    border:1px solid #57585a;
+    padding: 10px 35.55px;
+}

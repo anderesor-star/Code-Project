@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+}
+.nav-bar {
+    background-color: black;
+    color: white;
+    /* font-family: "Roboto", sans-serif; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* left-column */
+.nav-bar > .left-column {
+    display: flex;
+    justify-content: left;
+}
+.nav-bar > .left-column > .logo img {
+    width: 250px;
+    padding: 23px;
+}
+/* center-column */
+.nav-bar > .left-column >.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    width: 550px;
+    height: 10px;
+    font-size: 1.2em;
+}
+.nav-bar > .left-column > .center-column > .explore {
+    color: #eadb7d;
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+}
+.nav-bar > .left-column > .center-column > .links-wrapper {
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    justify-items: left;
+}
+.nav-bar > .left-column > .center-column > .links-wrapper > .box-link {
+    color:#acaca2;
+    padding-left: 25px;
+}
+.nav-bar > .left-column > .center-column > .links-wrapper > .box-link i {
+    color:#acaca2;
+}
+.nav-bar > .left-column > .center-column > .links-wrapper > .box-link {
+    display: flex;
+    justify-content: space-around;
+    width: 110px;
+}
+/* right-column */
+.nav-bar > .right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 470px;
+    font-weight: 800;
+}
+.nav-bar > .right-column > .button-create > .icon-create i {
+    color: #4acd78;
+}
+.nav-bar > .right-column > .button-create {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    background-color: #36383f;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.25em;
+}
+.nav-bar > .right-column > .lupa i {
+    font-size: 2em;
+    color:#7b7e8b;
+    padding: 20px;
+}
+.nav-bar > .right-column > .log-in-button {
+    background-color: #36383f;
+    width: 3.5em;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.25em;
+    text-align: center;
+}
+.nav-bar > .right-column > .sign-up-button {
+    background-color: #36383f;
+    width: 4em;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.25em;
+    text-align: center;
+}

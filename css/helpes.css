@@ -1,0 +1,17 @@
+.spacer60 {
+    width: 60px;
+    height: 60px;
+}
+.spacer40 {
+    height: 40px;
+}
+.bold {
+    font-weight: 800;
+}
+.blue {
+    color: #6dc6e1;
+}
+.bold-big {
+    font-weight: 800;
+    font-size: 1.65em;
+}
